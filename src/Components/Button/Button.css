@@ -1,0 +1,28 @@
+.button {
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 15px;
+
+}
+.button--primary {
+    background-color: #3A9CF8;
+    color: white;
+    border-color: #3A9CF8
+}
+.button--secondary {
+    background-color: transparent;
+    color: #3A9CF8;
+    border-width: 1.5px;
+    border-color: #3A9CF8;  
+}
+.button--primary:active {
+    background-color: #3083D0;
+  }
+.button--secondary:active {
+    background-color: #bbbec11b;
+    color: #3083D0;
+    border-width: 1.5px;
+    border-color: #3083D0;
+  }
