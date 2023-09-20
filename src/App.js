@@ -8,7 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-     <Button text="Primario" onClick={testing} variant='primary'/>
+     <Button children="Primario" onClick={testing} variant='primary'/>
     </div>
   );
 }
