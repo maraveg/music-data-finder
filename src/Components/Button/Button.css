@@ -1,0 +1,27 @@
+.button {
+    border:0.5px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.button--primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-text);
+}
+
+.button--secondary {
+    background-color: transparent;
+    border-width: 1.5px;
+    color: var(--primary-color);   
+}
+
+.button--primary:active {
+    background-color: var(--secondary-color);
+}
+
+.button--secondary:active {
+    background-color: var(--active-color);
+    border: 1.5px var(--secondary-color);
+    color: var(--secondary-color);
+}
