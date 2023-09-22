@@ -8,7 +8,9 @@ function App() {
   };
   return (
     <div className="App">
-     <Button children="Primario" onClick={testing} variant='primary'/>
+     <Button onClick={testing} variant='primary'>
+      Primary 
+     </Button>
     </div>
   );
 }

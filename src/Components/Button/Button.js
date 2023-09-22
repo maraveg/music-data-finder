@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Button.css";
 import PropTypes from "prop-types";
+import "./Button.css";
 
 /**
  * Funcion del componente botón
@@ -21,7 +21,7 @@ const Button = ({children, onClick, variant='primary'}) => {
   )
 };
 Button.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
   onClick: PropTypes.func.isRequired,
   variant: PropTypes.oneOf(['primary', 'secondary'])
 }; 

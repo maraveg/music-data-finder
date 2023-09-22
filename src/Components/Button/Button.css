@@ -1,28 +1,27 @@
 .button {
+    border:0.5px solid var(--primary-color);
     border-radius: 6px;
-    border:0.5px solid;
     padding: 5px 15px;
     text-align: center;
 }
 
 .button--primary {
-    background-color: #3A9CF8;
-    border-color: #3A9CF8;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--secondary-text);
 }
 
 .button--secondary {
     background-color: transparent;
-    border: 1.5px #3A9CF8;
-    color: #3A9CF8;   
+    border-width: 1.5px;
+    color: var(--primary-color);   
 }
 
 .button--primary:active {
-    background-color: #3083D0;
+    background-color: var(--secondary-color);
 }
 
 .button--secondary:active {
-    background-color: #bbbec11b;
-    border: 1.5px #3083D0;
-    color: #3083D0;
+    background-color: var(--active-color);
+    border: 1.5px var(--secondary-color);
+    color: var(--secondary-color);
 }
